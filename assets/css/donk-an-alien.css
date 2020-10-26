@@ -1,0 +1,60 @@
+body {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+
+.alien {
+	position:absolute;
+	top:115%;
+	background:rgb(200, 192, 231);
+	border-radius:100px 100px 0 0;
+	height:100%;
+	width:10%;
+	background-image:url("../images/alien.png");
+	background-size:115%;
+	background-repeat:no-repeat;
+}
+
+.ear-left {
+	background:rgb(200, 192, 231);
+	border-radius:100px;
+	position:absolute;
+	top:-10%;
+	left:0;
+	float:left;
+	min-width:30%;
+	min-height:60%;
+	padding:30% 0 0 0;
+	z-index:-1;
+}
+
+.ear-right {
+	background:rgb(200, 192, 231);
+	border-radius:100px;
+	position:absolute;
+	top:-10%;
+	left:70%;
+	float:right;
+	min-width:30%;
+	min-height:60%;
+	padding:30% 0 0 0;
+	z-index:-1;
+}
+
+#one {
+	left:5%;
+}
+#two {
+	left:25%;
+}
+#three {
+	left:45%;
+}
+#four {
+	left:65%;
+}
+#five {
+	left:85%;
+}
